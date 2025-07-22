@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import '../models/question.dart';
+import '../models/screens/question.dart';
 
 class ApiService {
   static const String _baseUrl =

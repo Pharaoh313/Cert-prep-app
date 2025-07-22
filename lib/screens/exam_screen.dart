@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import '../models/question.dart';
-import '../services/api_service.dart';
+import '../models/screens/question.dart';
+import '../services/api_services.dart';
 
 class ExamScreen extends StatefulWidget {
   final String certId;
