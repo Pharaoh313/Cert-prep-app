@@ -18,6 +18,7 @@ class ApiService {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
+          'Access-Control-Allow-Origin': '*',
         },
       ).timeout(const Duration(seconds: 30));
 
