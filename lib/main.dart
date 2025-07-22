@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/simple_home.dart';
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(const CertPrepApp());
@@ -16,7 +16,7 @@ class CertPrepApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SimpleHome(),
+      home: const HomeScreen(),
     );
   }
 }

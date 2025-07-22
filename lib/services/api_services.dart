@@ -9,9 +9,11 @@ class ApiService {
 
   static Future<List<Question>> fetchQuestions(String certId) async {
     try {
-      print('Fetching questions for certId: $certId');
+      print('🔗 Connecting to AWS Lambda backend...');
+      print('📍 Region: us-east-1');
+      print('🎯 CertId: $certId');
       final url = '$_baseUrl/questions?certId=$certId';
-      print('API URL: $url');
+      print('🌐 API Gateway URL: $url');
       
       final response = await http.get(
         Uri.parse(url),
